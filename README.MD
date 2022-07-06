@@ -14,3 +14,12 @@
   }
 }
 ```
+
+# (optional) 3. Add a package script to `package.json`
+
+```json
+...
+  "scripts": {
+    "dev": "nodemon src/app.ts"
+  },
+```
